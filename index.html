@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello there </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="wrapper">
+        <div class="logo">
+            <p>Hello There</p>
+        </div>
+        <!-- <nav class="navbar">
+            <button class="login">
+                user 
+            </button>
+            
+            <form class="forom">
+                <input type="text" class="user">
+                <input type="text" class="password">
+                <button>log in</button>
+            </form> 
+        </nav> -->
+        <div class="header">
+
+            <div class="dropdown" data-dropdown>
+              <button class="link" data-dropdown-button>Login</button>
+              <div class="dropdown-menu">
+                <form class="login-form" onsubmit="see()">
+                  <label for="email">Username</label>
+                  <input type="text" name="email" id="email">
+                  <label for="password">Password</label>
+                  <input type="password" name="password" id="password">
+                  <button type="submit" class="input__submit">Login</button>
+                </form>
+              </div>
+            </div>
+          </div>
+    </header>
+
+    <main>
+        <div class="content">
+            <span class="greeting">hello</span> 
+            <span class="username">stranger</span>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
